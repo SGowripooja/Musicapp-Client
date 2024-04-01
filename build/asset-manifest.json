@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f1b0483.css",
+    "main.js": "/static/js/main.21483d79.js",
+    "static/media/Nenjukkul-Peidhidum.mp3": "/static/media/Nenjukkul-Peidhidum.48e9f0949e1805a3cda5.mp3",
+    "static/media/Mundhinam-Parthene.mp3": "/static/media/Mundhinam-Parthene.8da7084dc52e44bfde9f.mp3",
+    "static/media/01 The Great Kailasanathar Kovilin Kadhai.mp3": "/static/media/01 The Great Kailasanathar Kovilin Kadhai.ac8f21521afac6351494.mp3",
+    "static/media/01 Kamatchi Kovilin Kadhai - Part 1.mp3": "/static/media/01 Kamatchi Kovilin Kadhai - Part 1.7d6c0f704792b1e8dd7a.mp3",
+    "static/media/01 Kachchapeshwarar kovil Kadhai - A temple where Lord Shiva grants his devotees wish.mp3": "/static/media/01 Kachchapeshwarar kovil Kadhai - A temple where Lord Shiva grants his devotees wish.bb20e66614e5ff02433d.mp3",
+    "static/media/Ava-Enna-Enna.mp3": "/static/media/Ava-Enna-Enna.2eac3f7638bbefc22d48.mp3",
+    "static/media/Annul-Maelae.mp3": "/static/media/Annul-Maelae.a9bcb6124f1b46de922f.mp3",
+    "static/media/Adiyae-Kolluthey.mp3": "/static/media/Adiyae-Kolluthey.158ba590699ea114abd3.mp3",
+    "static/media/01 Kumara kottam Kovilin Kadhai.mp3": "/static/media/01 Kumara kottam Kovilin Kadhai.b725c9ff4a2a8e14f264.mp3",
+    "static/media/01 Chithraguptar Kovilin Kadhai.mp3": "/static/media/01 Chithraguptar Kovilin Kadhai.3f775806a87829ff0f76.mp3",
+    "static/media/01 Anandha Padmanaba Eshwarar Kovilin Kadhai.mp3": "/static/media/01 Anandha Padmanaba Eshwarar Kovilin Kadhai.28bd6c05a48cc1da86c9.mp3",
+    "index.html": "/index.html",
+    "main.9f1b0483.css.map": "/static/css/main.9f1b0483.css.map",
+    "main.21483d79.js.map": "/static/js/main.21483d79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f1b0483.css",
+    "static/js/main.21483d79.js"
+  ]
+}

@@ -1,0 +1,123 @@
+.player-card{
+    width: 50%;
+    height: 50vh;
+    margin-left: 370px;
+    background-color: #212121;
+    background-image: url('https://m.media-amazon.com/images/I/813mZCjKSWL._AC_SL1500_.jpg?7hqt659brkp0g') !important; 
+    border-radius: 30px;
+    -webkit-box-shadow: 13px 12px 40px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 13px 12px 40px -7px rgba(0,0,0,0.75);
+box-shadow: 13px 12px 40px -7px rgba(0,0,0,0.75);
+margin-top: 60px;
+   
+
+}
+
+.player-main{
+    padding: 10px;
+   
+    
+}
+
+.control-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    gap: 20px;
+    position: absolute;
+    margin-left: 130px;
+}
+
+.icons{
+    -webkit-box-shadow: 10px 0px 55px 11px rgba(227,149,32,1);
+    -moz-box-shadow: 10px 0px 55px 11px rgba(227,149,32,1);
+    box-shadow: 10px 0px 55px 11px rgba(227,149,32,1);
+    border-radius: 50%;
+}
+
+
+.icons:hover{
+    color: #ff9800 !important;
+    cursor:pointer;
+}
+
+.activesong-name{
+    font-family: Copperplate, Papyrus, fantasy;
+  left:35%;
+  transform: translate(-50,0);
+  display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top:80px;
+    font-color: black !important;
+    font-size: 30px;
+  
+}
+
+.activeartist-name{
+    //font-color: blue !important;
+    font-family: Copperplate, Papyrus, fantasy;
+    left:35%;
+    transform: translate(-50,0);
+    display: flex;
+      justify-content: center;
+      position: absolute;
+      margin-top:130px;
+
+}
+
+.song-name{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Add responsive styles here */
+    .home-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .player-main {
+      /* Adjust styles for player */
+      width: 100%;
+    }
+    .audio-list {
+      /* Adjust styles for audio list */
+      width: 100%;
+    }
+  }
+
+
+  /* Player.css */
+
+.player-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .control-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons {
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .activesong-name,
+    .activeartist-name {
+      font-size: 1.2rem; /* Adjust font size */
+    }
+  
+    .icons {
+      width: 40px; /* Adjust icon size */
+      height: 40px;
+    }
+  }
+  

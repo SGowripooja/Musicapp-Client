@@ -1,0 +1,63 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;/* Aligns items with space between them */
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    
+  
+  }
+  
+  .player-main {
+    flex: 1; /* Takes up remaining space */
+    padding: 10px;
+  }
+  
+  .audio-list {
+    width: 500px; /* Adjust width as needed */
+    padding: 10px;
+    background-image: url('https://m.media-amazon.com/images/I/813mZCjKSWL._AC_SL1500_.jpg?7hqt659brkp0g');
+    overflow-x: hidden;
+    margin-right:20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow-y: auto;
+  }
+  
+  .song-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .song-list li {
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc; */
+  }
+  
+  .song-list li:last-child {
+    border-bottom: none;
+  }
+  
+.song-list-title{
+ font-color: white;
+ /* font-style: italic; */
+ font-family: Copperplate, Papyrus, fantasy;
+}
+
+@media screen and (max-width: 768px) {
+  /* Add responsive styles here */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .player-main {
+    /* Adjust styles for player */
+    width: 100%;
+  }
+  .audio-list {
+    /* Adjust styles for audio list */
+    width: 100%;
+  }
+}

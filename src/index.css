@@ -1,0 +1,175 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* auth forms */
+
+form.signup , form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  height: 300px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* homepage
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+} */
+
+nav button {
+  background: #fff;
+  color: var (--primary);
+  border :2px solid var(--primary);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-family: Copperplate, Papyrus, fantasy;
+  cursor:pointer;
+  font-size: 1em;
+  margin-top: 8px;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+} 
+
+h2 , h3 , h4 {
+  color: white;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+.root{
+  background-image: url('https://m.media-amazon.com/images/I/813mZCjKSWL._AC_SL1500_.jpg?7hqt659brkp0g') !important;
+}
+
+input{
+  box-shadow : none !important;
+  margin-top : 15px;
+  border: 1px solid black !important;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+color: black;
+}
+
+.navbar-brand{
+  color: black;
+}
+
+.navbar-nav{
+  margin-left: auto !important;
+}
+
+.dropdown-toggle{
+  border: 0px solid black !important;
+}
+
+
+.sidebar{
+  height: 280px;
+width: 200px;
+background-color: #555;
+text-align: center;
+padding-left: 30px;
+border-radius: 10px;
+position: absolute;
+margin-top:50px;
+
+
+}
+
+.sidein{
+  margin-top:20px;
+}
+
+.player-container{
+  text-align:center;
+}
+
+.app-main{
+  position: fixed;
+  bottom:0;
+  width: 80%;
+}
+
+.audio-list {
+  width: 300px; /* Adjust width as needed */
+  padding: 20px;
+  background-color: #f1f1f1;
+  overflow-y: auto; /* Enable scrolling if list is too long */
+}
+
+.home-icon:hover{
+  cursor:pointer;
+  color: blue !important;
+}
+
+
+@media screen and (min-width: 768px) {
+  .signup {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .login {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

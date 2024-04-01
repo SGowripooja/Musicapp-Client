@@ -1,0 +1,45 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;/* Aligns items with space between them */
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    
+  
+  }
+  
+  .player-main {
+    flex: 1; /* Takes up remaining space */
+    padding: 10px;
+  }
+  
+  .audio-list {
+    width: 500px; /* Adjust width as needed */
+    padding: 10px;
+    background-image: url(../../assets/app-background.jpg);
+    overflow-x: hidden;
+    margin-right:20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow-y: auto;
+  }
+  
+  .song-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .song-list li {
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc; */
+  }
+  
+  .song-list li:last-child {
+    border-bottom: none;
+  }
+  
+.song-list-title{
+ font-color: white;
+ font-style: italic;
+}

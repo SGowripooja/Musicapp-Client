@@ -1,0 +1,30 @@
+
+.sub-container {
+    width: 500px;
+    height: 610px;
+    background: rgb(250, 224, 60);
+    margin-left: 430px;
+    pading: 30px;
+    border-radius: 20px;
+  }
+
+  .sub-header {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Add some spacing between list items */
+    font-weight: bold;
+  }
+
+  .sub-l-header{
+    font-weight: bold;
+    font-size: 20px;
+  }
